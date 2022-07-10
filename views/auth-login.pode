@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Auth Login</title>
+        <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    </head>
+    <body>
+        <h1> <center> Please Login: </h1>
+        <center>
+        <form action="/login" method="post" >
+            <div>
+                <label>Username:</label>
+                <input type="text" name="username"/>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" name="password"/>
+            </div>
+            <div>
+                <input type="submit" value="Login"/>
+            </div>
+        </form>
+    </center>
+    </body>
+</html>
